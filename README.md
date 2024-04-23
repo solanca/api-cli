@@ -43,7 +43,7 @@ Where `<function_name>` is the name of the API function you want to execute. Her
 
     `api_cli kraken query_orders_info --txids OGCOLF-XCKCI-TK2YRI --trades true`
     
- 
+  Copy code
     `api_cli kraken add_order --pair solusd --side buy --type limit --price 50 --volume 45.2`
 
 Supported Commands

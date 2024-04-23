@@ -1,0 +1,18 @@
+[package]
+name = "api_cli"
+description = "A CLI for financial exchanges"
+version = "0.0.1"
+license = "Apache-2.0"
+repository = "https://github.com/100mountains/api_cli"
+keywords = ["cli"]
+author = ["100mountains"]
+edition = "2021"
+
+[dependencies]
+kraken_rest_client = { path = "../kraken_rest_client" }
+kraken_futures_rest_client = "0.25.0"
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15.0"
+serde = "1.0.198"
+serde_json = "1.0"
+lazy_static = "1.4.0"

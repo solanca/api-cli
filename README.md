@@ -21,30 +21,22 @@ Where `<function_name>` is the name of the API function you want to execute. Her
 
 *   Retrieve your account balance:
     
-    bash
-    
-    Copy code
+Copy code
     
     `api_cli kraken get_account_balance`
     
-*   Get trade volume for a specific trading pair:
+*   Get trade volume for a specific trading pair:   
     
-    bash
-    
-    Copy code
+Copy code
     
     `api_cli kraken get_trade_volume --pair XBTUSD`
     
-*   Withdraw funds to a specified address:
-    
-    bash
-    
-    Copy code
+Copy code
 
     `api_cli kraken query_orders_info --txids OGCOLF-XCKCI-TK2YRI --trades true`
     
   Copy code
-  
+
     `api_cli kraken add_order --pair solusd --side buy --type limit --price 50 --volume 45.2`
 
 Supported Commands

@@ -2,6 +2,10 @@
 
 This command-line interface (CLI) is designed to interact with financial exchange APIs. Currently, it supports only the Kraken exchange, with plans to abstract the interface to support additional exchanges in the future.  
 
+# todo
+
+abstract the client from the kraken SDK ready for other exchanges.
+
 ## Getting Started  To get started with this CLI, clone the repository and navigate to the project directory:  
 
 ```bash git clone <repository-url> cd <project-directory>`

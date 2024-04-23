@@ -4,7 +4,7 @@ This command-line interface (CLI) is designed to interact with financial exchang
 
 # todo
 
-abstract the client from the kraken SDK ready for other exchanges.
+abstract the client from the kraken SDK ready for other exchanges. NOTE: this will only work with the kraken-sdk for rust. you might have to fiddle with your toml.
 
 ## Getting Started  To get started with this CLI, clone the repository and navigate to the project directory:  
 
